@@ -6,5 +6,3 @@ class Movie(models.Model):
     genre = models.CharField(max_length=100)
     rating = models.CharField(max_length=100)
     poster = models.CharField(max_length=100)
-
-    
